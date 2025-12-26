@@ -38,36 +38,34 @@ This repository is intentionally **partially implemented** to encourage learning
 
 ## 📁 Project Structure
 
+```text
 Cyber-Lens/
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── pages/
-│ │ │ ├── Home.jsx
-│ │ │ ├── History.jsx
-│ │ │ └── News.jsx
-│ │ ├── components/
-│ │ ├── App.jsx
-│ │ └── main.jsx
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── History.jsx
+│   │   │   └── News.jsx
+│   │   ├── components/
+│   │   ├── App.jsx
+│   │   └── main.jsx
 │
 ├── backend/
-│ └── src/
-│ ├── config/
-│ │ └── db.js
-│ ├── models/
-│ ├── providers/
-│ ├── services/
-│ ├── routes/
-│ ├── app.js
-│ └── server.js
+│   └── src/
+│       ├── config/
+│       │   └── db.js
+│       ├── models/
+│       ├── providers/
+│       ├── services/
+│       ├── routes/
+│       ├── app.js
+│       └── server.js
 │
 ├── contributors/
 │
 └── README.md
-
-
----
-
+```
 ## 🧩 Contribution Workflow
 
 1. **Fork** this repository
@@ -100,47 +98,40 @@ Each issue has:
 
 ---
 
-🧪 Rules & Guidelines
+## 🧪 Rules & Guidelines
 
-Follow existing folder structure
+- Follow the existing folder structure  
+- Do not introduce unnecessary dependencies  
+- Write clean, readable code  
+- Handle errors properly  
+- Respect API rate limits  
+- One issue per PR (unless stated otherwise)
 
-Do not introduce unnecessary dependencies
+---
 
-Write clean, readable code
+## 🏆 Scoring & Recognition
 
-Handle errors properly
+- Each merged PR earns points based on issue difficulty  
+- Competitive issues reward higher points  
+- Top contributors will be recognized at the end of the event
 
-Respect API rate limits
+---
 
-One issue per PR (unless stated otherwise)
+## 📊 Final MVP Goals
 
-🏆 Scoring & Recognition
+By the end of the event, **Cyber Lens** should support:
 
-Each merged PR earns points based on issue difficulty
+- End-to-end IOC lookup  
+- Parallel provider execution  
+- Accurate scoring & verdicts  
+- Persistent history  
+- News ingestion with IOC extraction  
+- Analytics dashboard  
+- Clean and stable UI
 
-Competitive issues reward higher points
+---
 
-Top contributors will be recognized at the end of the event
+## 🤝 Maintainers
 
-📊 Final MVP Goals
-
-By the end of the event, Cyber Lens should support:
-
-End-to-end IOC lookup
-
-Parallel provider execution
-
-Accurate scoring & verdicts
-
-Persistent history
-
-News ingestion with IOC extraction
-
-Analytics dashboard
-
-Clean and stable UI
-
-🤝 Maintainers
-
-Maintained by the Cyber Security Wing
-For queries, check the issue discussions or reach out to the maintainers.
+Maintained by the **Cyber Security Wing**  
+For queries, check the **Issues** section or reach out to the maintainers.
